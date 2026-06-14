@@ -9,7 +9,7 @@ import net.minecraft.world.level.storage.ValueOutput;
 import net.minecraft.world.phys.AABB;
 
 public interface AreaAffectingBE {
-    double maxRadius = 5;
+    double maxRadius = 15;
     int maxOffset = 9;
 
     BlockEntity getBlockEntity();
